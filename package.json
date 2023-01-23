@@ -1,0 +1,67 @@
+{
+  "name": "hardhat-demo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chainlink/contracts": "^0.2.2",
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@material-ui/core": "^4.12.3",
+    "@metamask/detect-provider": "^1.2.0",
+    "@mui/icons-material": "^5.0.4",
+    "@mui/material": "^5.0.4",
+    "@mui/styled-engine-sc": "^5.0.3",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/contracts": "^4.3.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@typechain/ethers-v5": "^6.0.5",
+    "buffer": "^6.0.3",
+    "ethers": "^5.4.7",
+    "fs-extra": "^10.0.0",
+    "hardhat-typechain": "^0.3.5",
+    "ipfs-api": "^26.1.2",
+    "numbro": "^2.3.5",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.0",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "reactjs-popup": "^2.0.5",
+    "styled-components": "^5.3.3",
+    "ts-generator": "^0.1.1",
+    "typechain": "^4.0.3",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "hardhat": "^2.6.6"
+  }
+}
